@@ -14,3 +14,28 @@ _________
 git add .
 git commit -m "commit description"
 git push -u origin main
+
+4. Creating branch:
+___________
+
+git checkout -b "branchName"
+
+5. Staging changes:
+___________
+
+git add file1 file 2 ...
+
+6. Checking the changes:
+___________
+
+git status
+
+7. See the remote url:
+___________
+
+git remote -v
+
+8. git push to the branch
+_____________
+
+git push origin branchName
